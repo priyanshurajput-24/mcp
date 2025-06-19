@@ -1,12 +1,15 @@
 [project]
-name = "MCP demo langchain"
-version = "0.1"
-description = "Basic demonstration of Model-Contet-Protocol (MCP) functionality"
+name = "MCPdemolangchain"
+version = "0.2"
+description = "Demonstration of resources, prompt in  Model-Contet-Protocol (MCP)."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "c>=0.0.1",
+    "fastmcp==2.0.0",
     "langchain-groq>=0.3.2",
     "langchain-mcp-adapters>=0.1.7",
     "langgraph>=0.4.8",
-    "mcp>=1.9.4",
+    "mcp[cli]>=1.9.4",
+    "pandas>=2.3.0",
 ]
