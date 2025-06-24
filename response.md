@@ -1,7 +1,7 @@
  # Here are the analysis of response got from different settings.
 
 
-## 1. `First without Context`, `Raw question`
+## Case 1. `First without Context`, `Raw question`
 
 * **Response are bit lengthy and more costly like**
 
@@ -133,7 +133,7 @@ To solve the expression \([(3 + 5) \times (12 - 3 + 4) + 10] \times 2\), we foll
 
 Thus, the final answer is \(\boxed{228}\).
 
-## 2. `Second with Context`, `Raw question with full context`
+## Case 2. `Second with Context`, `Raw question with full context`
 
 * Response are smarter and very less costly 
 
